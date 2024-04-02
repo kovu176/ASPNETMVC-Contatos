@@ -1,4 +1,4 @@
-# Sistema de Cadastro de Contatos Virtual
+# Sistema de Gerenciamento de pessoas e Contatos 
 
 Na aplicação foi utilizado: 
 
