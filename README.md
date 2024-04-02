@@ -2,7 +2,7 @@
 
 Na aplicação foi utilizado: 
 
--.NET Arquitetura de três camadas MVC com ASP.NET
+- .NET Arquitetura de três camadas MVC com ASP.NET
 -ORM Entity framework para Inversão de dependencias.
 - Injeção de dependencias para serviços.
 - DataNotation para validação de formulários e dados.
