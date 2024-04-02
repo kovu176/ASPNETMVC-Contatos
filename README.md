@@ -1,36 +1,17 @@
 # Sistema de Cadastro de Contatos Virtual
 
-Código para funcionar a paginação e a tradução dos componentes de busca
+Na aplicação foi utilizado: 
 
-<pre>
-  
-    $('#table-contatos').DataTable({
-        "ordering": true,
-        "paging": true,
-        "searching": true,
-        "oLanguage": {
-            "sEmptyTable": "Nenhum registro encontrado na tabela",
-            "sInfo": "Mostrar _START_ at&eacute; _END_ de _TOTAL_ registros",
-            "sInfoEmpty": "Mostrar 0 at&eacute; 0 de 0 Registros",
-            "sInfoFiltered": "(Filtrar de _MAX_ total registros)",
-            "sInfoPostFix": "",
-            "sInfoThousands": ".",
-            "sLengthMenu": "Mostrar _MENU_ registros por pagina",
-            "sLoadingRecords": "Carregando...",
-            "sProcessing": "Processando...",
-            "sZeroRecords": "Nenhum registro encontrado",
-            "sSearch": "Pesquisar",
-            "oPaginate": {
-                "sNext": "Proximo",
-                "sPrevious": "Anterior",
-                "sFirst": "Primeiro",
-                "sLast": "Ultimo"
-            },
-            "oAria": {
-                "sSortAscending": ": Ordenar colunas de forma ascendente",
-                "sSortDescending": ": Ordenar colunas de forma descendente"
-            }
-        }
-    });
-  
-</pre>
+-.NET Arquitetura de três camadas MVC com ASP.NET
+-ORM Entity framework para Inversão de dependencias.
+- Injeção de dependencias para serviços.
+- DataNotation para validação de formulários e dados.
+- ModelState Para tratativa de formularíos.
+- Jquery e dataTable para paginação de tabelas.
+- Enums para controle de nivel de usuario.
+- Autenticação de login e controle de sessão atráves de HTTPCONTEXT.
+- Biblioteca Newtonsoft JSON para serelializar a setring de sessão.
+- Componetes para renderização dinamica ( como VIEWS de usuario e de ADMINISTRADOR )
+- Filtros para controle de perfil ( VIEW DE USUARIO LOGADO ou ADM).
+- Criptografia de Senha com HASH.
+- Redefinição de senha atráves de SMTP ( Simple Mail Transfer Protocol).
